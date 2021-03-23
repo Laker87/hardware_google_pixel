@@ -81,11 +81,13 @@ cc_binary {
         "libdisppower-pixel",
         "libperfmgr",
         "pixel-power-ext-ndk_platform",
+        "vendor.lineage.power-ndk_platform",
     ],
     srcs: [
         "aidl/service.cpp",
         "aidl/Power.cpp",
         "aidl/PowerExt.cpp",
+        "aidl/LineagePower.cpp"
     ],
     header_libs: [
         "libhardware_headers",
